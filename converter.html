@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="converter.css">
+</head>
+
+<body>
+
+  <div class="og-wrapper">
+    <div class="og_color">
+      <div class="p-3 mb-2 bg-danger text-white red_text">R</div>
+      <div class="form-group">
+        <input type="range" class="custom-range" min="0" max="255" step="1" value="0" id="redRange">
+      </div>
+      <div class="p-3 mb-2 bg-danger text-white red_number">0</div>
+    </div>
+
+    <div class="og_color">
+      <div class="p-3 mb-2 bg-success text-white green_text">G</div>
+      <div class="form-group">
+        <input type="range" class="custom-range" min="0" max="255" step="1" value="0" id="greenRange">
+      </div>
+      <div class="p-3 mb-2 bg-success text-white green_number">0</div>
+    </div>
+
+    <div class="og_color">
+      <div class="p-3 mb-2 bg-primary text-white blue_text">B</div>
+      <div class="form-group">
+        <input type="range" class="custom-range" min="0" max="255" step="1" value="0" id="blueRange">
+      </div>
+      <div class="p-3 mb-2 bg-primary text-white blue_number">0</div>
+    </div>
+
+
+  </div>
+
+
+  <div class="og-mc">
+    <div class="ColorBg" id="hexColor">
+      #000000
+      <!--color code -->
+    </div>
+  </div>
+
+
+  <script src="converter.js"></script>
+</body>
+
+</html>
